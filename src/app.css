@@ -1,0 +1,14 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   body {
+      @apply bg-[#442d5d]
+   }
+
+   h1,h2,h3,h4,a,p,li {
+      @apply text-[#decff1] font-v32;
+   }
+}

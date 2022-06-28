@@ -6,6 +6,9 @@
 		const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
 		const guide = await res.json();
 
+		//const res = await fetch(`/guides/${id}.json`);
+		//const {guide} = await res.json();
+
 		if (res.ok) {
 			return {
 				props: {
